@@ -1,9 +1,10 @@
-# Answer to notes.md questions
-## 5/23/2017
+# Answer to notes.md Questions
+### 5/23/2017
 The following script was run with Python 3.5.1 and depends on pandas (0.20.2),
 numpy (1.12.1) and matplotlib.pyplot (1.5.3).
 
-When using the following script in Terminal. Open Terminal and cd to
+For mac:
+When using the following script in Terminal; open Terminal and cd to
 the folder where the script is located. In order to run the script
 run:
 
@@ -16,9 +17,8 @@ run:
 
 ### How would you improve it?
 That depends:
-* If a user was going to use this as a tool from a command line; then I'd create a  complete
-CLI for the program.
-* I'd also change the script to input any time series data
+* Create a comprehensive CLI for the program.
+* Input any time series data and giving user ability to define
 * Create  unit tests to ensure the data input would identify informal
 
 

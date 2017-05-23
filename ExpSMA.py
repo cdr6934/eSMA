@@ -37,7 +37,7 @@ def collect_user_input(window_default):
 
 
 def main():
-    stock = import_clean_ts("goog.csv")  # TODO: Input from ARGV
+    stock = import_clean_ts("data/goog.csv")  # TODO: Input from ARGV
     data = pd.Series(np.float32(stock['Close']), index=stock['Date'])
 
     lt_av = generate_exponential_sma(data, collect_user_input(4))  # Generate eSMA
