@@ -8,13 +8,28 @@
 # of the TS providing a signal that can be analyzed.
 ##############################################
 
-import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
 
 
 def generate_exponential_sma(data, window):
-    """Generates eSMA from data"""
+    """
+    Generates eSMA from data
+
+    Parameters
+    ----------
+    data : DataFrame object
+        ts Series object 
+        
+    window : int 
+        sliding window function
+
+    Returns
+    -------
+    DataFrame
+        ts exponential SMA result
+    """
     return data.ewm(span=window).mean()
 
 
@@ -47,7 +62,7 @@ def main():
     diff_ltst_av = generate_exponential_sma(diff_ltst, 7.5)
     diff_av_diff = diff_ltst_av - diff_ltst  # Second Derivative
 
-    # Shows plot to user
+    # Display plot to user
     plt.show(diff_av_diff.plot(style='k', title="2nd Derivative GOOG Close Price"))
 
 
