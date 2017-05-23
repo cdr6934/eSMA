@@ -3,7 +3,8 @@
 
 
 ### How would you use this algorithm?
- Since we have stock data; I'd use the output and run th through some anomaly detection methods to identify out of the norm events that may trigger a buy/sell scenario.
+ Since we are looking at a change signal; it can be used to compare the fluction of the signal to see how different the might. In the case of stock data;
+ I'd use the output and run the data through an anomaly detection algorithm to identify out of the norm events that may trigger a buy/sell scenario.
 
 ### How would you improve it?
 That depends:
