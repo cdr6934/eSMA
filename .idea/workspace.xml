@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="33dfe8b9-3327-4a6a-869f-9edc898bc7c2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answers.md" afterPath="$PROJECT_DIR$/answers.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -373,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1495560591814</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Updated answers.md">
+      <created>1495562811728</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1495562811728</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -446,7 +452,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Added a few more changes" />
     <MESSAGE value="Added README" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added README" />
+    <MESSAGE value="Updated answers.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated answers.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
