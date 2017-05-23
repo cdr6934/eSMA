@@ -1,3 +1,5 @@
+## Exponential Smooth Moving Average Derivative (v.0.1)
+
 The following script was run with Python 3.5.1 and depends on pandas (0.20.2),
 numpy (1.12.1) and matplotlib.pyplot (1.5.3).
 
@@ -7,3 +9,5 @@ the folder where the script is located. In order to run the script
 run:
 
 > python ExpSMA.py
+
+Please enter window spans for SMA when asked or use the default.
